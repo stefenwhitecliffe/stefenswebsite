@@ -1,3 +1,12 @@
+html, body {
+  overflow: hidden;
+  margin: 0%;
+  min-height: 100vh;
+}
+
+canvas{
+margin: 0%;
+}
 
 p {
   font-family: Helvetica;
@@ -12,11 +21,26 @@ li
   font-family: Helvetica, sans-serif;
 }
 
-#main-header {
-  background-color: white;
+#main-header{
+  position:absolute;
   color: #00ff1e;
   text-align: center;
   font-size: 150px;
+  width: 100%;
+}
+
+
+
+#navbar{
+  position:absolute;
+}
+
+
+
+
+ 
+  
+  /*font-size: 150px;
   width: 100%;
   box-sizing: border-box;
   position: absolute;
