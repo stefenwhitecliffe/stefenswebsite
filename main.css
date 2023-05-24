@@ -11,3 +11,19 @@ li
 {
   font-family: Helvetica, sans-serif;
 }
+
+#main-header {
+  background-color: white;
+  color: #00ff1e;
+  text-align: center;
+  font-size: 150px;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 100;
+}
+
+  /* border: 0px solid green;
+  padding: 0px;
+  margin: 0px; /*
+}
