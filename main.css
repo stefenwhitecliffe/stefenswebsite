@@ -21,24 +21,105 @@ li
   font-family: Helvetica, sans-serif;
 }
 
-#main-header{
-  position:absolute;
+ #main-header{
+  /* position:absolute;
   color: #00ff1e;
   text-align: center;
   font-size: 150px;
-  width: 100%;
-}
+  width: 100%; */
+
+  position: absolute;
+  color: #00ff1e;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+  font-size: 80px;
+	z-index: 100;
+	display:block;
+} 
 
 
 
-#navbar{
+
+/* #navbar{
   position:absolute;
 }
 
+ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        } */
 
 
 
  
+        
+
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #33333300;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#navbar a {
+  color: #f2f2f2;
+  text-align: center;
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0px auto;
+}
+
+#navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.column{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 2;
+  }
+  
+  .overlay-text {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  }
+  
+  .overlay-link {
+  position: relative;
+  color: white;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 1;
+  }
+
+
   
   /*font-size: 150px;
   width: 100%;
