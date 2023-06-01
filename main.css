@@ -130,5 +130,34 @@ ul {
 
   /* border: 0px solid green;
   padding: 0px;
-  margin: 0px; /*
+  margin: 0px; 
+}*/
+
+.fiji {
+  width: 100%;
+  height: 100%;
+  z-index: 99;
 }
+
+.main { 
+ text-align: center;
+}
+
+.about-text h1, p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 100;
+}
+
+.about-text h1 { 
+  padding: 5px;
+}
+
+.about-text p { 
+  margin-top: 10px;
+}
+
+
